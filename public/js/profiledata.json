@@ -1,0 +1,59 @@
+{
+  "profile":
+
+  [
+    {
+    "id":1 ,
+    "name":"name",
+    "namevalue":"mustafa abouhashem"
+  },
+    {
+    "id":2 ,
+    "name":"Birthday",
+    "namevalue":"1/11/1995"
+  },
+    {
+    "id":3 ,
+    "name":"Address",
+    "namevalue":"Qalubia"
+  },
+    {
+    "id":4 ,
+    "name":"Phone",
+    "namevalue":"01028212816"
+  },
+    {
+    "id":5 ,
+    "name":"Email",
+    "namevalue":"abohashemelrefaay@gmail.com"
+  },
+    {
+    "id":6 ,
+    "name":"Website",
+    "namevalue":"www.google.com"
+  }
+  ],
+
+"skills":[
+  {
+    "id":1,
+    "cours":"Html",
+    "Percentage":"75%"
+  },
+  {
+    "id":2,
+    "cours":"Css",
+    "Percentage":"85%"
+  },
+  {
+    "id":3,
+    "cours":"Js",
+    "Percentage":"85%"
+  },
+  {
+    "id":4,
+    "cours":"React",
+    "Percentage":"80%"
+  }
+]
+}
