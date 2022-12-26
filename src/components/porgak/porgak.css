@@ -1,0 +1,61 @@
+.porgak {
+  width: 85%;
+  text-align: center;
+  background: #cfcfcf;
+  border-radius: 38px;
+  margin: 10px auto;
+}
+
+.cover {
+
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+
+.result {
+
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+.date {
+  background: #232323;
+  color: white;
+  width: 200px;
+  height: 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.submit {
+  width: 70px;
+  height: 28px;
+  border-radius: 12px;
+  background: #eb5424;
+  color: aliceblue;
+}
+
+.porgname {
+  background: #232323;
+width: 150px;
+margin-left: 73%;
+border-radius: 12px;
+color: aliceblue;
+line-height: 27px;
+display: block;
+height: 30px;
+margin-top: 17px;
+}
+
+.info {
+  background: #232323;
+  color: aliceblue;
+  width: 550px;
+  border-radius: 15px;
+  border: 10px solid #232323;
+  margin-top: 3px;
+}

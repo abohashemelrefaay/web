@@ -1,27 +1,25 @@
 
 import React from 'react'
-import {BrowserRouter as Router , Route ,Routes} from 'react-router-dom'
+
 
 import Navbar from './components/navebar/index'
-import Contact from './components/contact/index'
-import Index from './components/index'
-
+import Home from './components/home';
+import Work from './components/work';
+import Socailmedia from "./components/Socailmedia/index";
+import Profile from './components/profile';
+import Porgak from './components/porgak/porgak';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       
-      <Router>
-        <Routes>
-          <Route 
-          exact path="/"
-          element={<Index />}/>
-          <Route 
-          exact path="/contact" 
-          element={<Contact />}/>
-          </Routes>
-        </Router>
+      <Home />
+      <Work />
+      <Porgak/>
+      <Profile />
+      <Socailmedia />
+      
+    
       
     </div>
   );

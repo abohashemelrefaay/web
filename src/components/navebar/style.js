@@ -19,6 +19,7 @@ export const Listitem=styled.ul
     float: left; 
     li-style: none;
     padding: 0 ;
+    text-align: end;
 `
 
 export const Liitem =styled.li

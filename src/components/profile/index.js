@@ -17,10 +17,13 @@ class  Profile extends Component {
     const {skills}=this.state
     const profilelist = profile.map((profileitem)=>{
       return(
+    
         <Profileitem number={profileitem.id} key={profileitem.id}>
         <Span>{profileitem.name}</Span>
-        {profileitem.namevalue}
+        {profileitem.namevalue}<a></a>
        </Profileitem>
+        
+    
       )
     })
     const skillslist= skills.map((skillitem)=>{
@@ -42,6 +45,14 @@ class  Profile extends Component {
                 <Profiletitle><Profiletitlespan>My </Profiletitlespan>Profile</Profiletitle>
                 <Profilelist>
                     {profilelist}
+                    <Profileitem>
+        <Span>Email</Span>
+        <a href="mailto: abohashemelrefaay@gmail.com">Send Email</a>
+       </Profileitem>
+                    <Profileitem>
+        <Span>Website</Span>
+        <a href="https://web-blush-theta.vercel.app/">my Website</a>
+       </Profileitem>
                 </Profilelist>
             </Profilesection>
             

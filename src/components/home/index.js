@@ -8,10 +8,10 @@ const Home =()=> {
     <Homeparent>
         <div className="container">
             <Information>
-                <Hometitle>mustafa abohashem</Hometitle>
-                <Homeinfo>Creative Director</Homeinfo>
+                <Hometitle>mustafa mohamed abohashem</Hometitle>
+                <Homeinfo>Front End Developer</Homeinfo>
                 <Homedesc>
-                    Iam a professional <Span>UX Designer</Span> and Front-End Developer creating modern and resposive designs to Web and Mobile. Let us work together. Thank you. 
+                Front End Developer I create modern and responsive web designs using  <Span > HTML, CSS, JS </Span> and <Span >react.js</Span> programming languages,And I have other languages ​​like <Span >php , C++</Span> I have good knowledge of  <Span >CCNA</Span>  and video editing programs and Photoshop programs 
                 </Homedesc>
                 <Homebtn className="home-btn">Let's Begin</Homebtn>
             </Information>

@@ -16,7 +16,7 @@ export const Information =styled.div
  `
 
 export const Hometitle =styled.h2
-`  font-size: 60px;
+`  font-size: 35px;
   font-weight: bold;
   color: #5e5e5e;
 `
@@ -35,7 +35,8 @@ export const Homedesc =styled.p
 `
 
 export const  Span =styled.span
-`  color: #000
+`  color: #eb54249e;
+font-weight: bold;
 `
 
 export const Homebtn =styled.button

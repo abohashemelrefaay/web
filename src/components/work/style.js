@@ -1,6 +1,21 @@
 
 import styled from 'styled-components';
 
+export const Movingcover =styled.div
+`display: flex;
+width: 480%;
+height: 80vh;
+transition:3s;
+
+margin-left: ${(props) => (props.active === "p1" ? "0%" : "")};
+margin-left: ${(props) => (props.active === "p2" ? "-80%" : "")};
+margin-left: ${(props) => (props.active === "p3" ? "-160%" : "")};
+margin-left: ${(props) => (props.active === "p4" ? "-240%" : "")};
+margin-left: ${(props) => (props.active === "p5" ? "-320%" : "")};
+margin-left: ${(props) => (props.active === "p6" ? "-400%" : "")};
+
+`
+
 export const Workcomp =styled.div
 `  height: auto;
   padding: 50px 0;
@@ -24,7 +39,9 @@ export const Part =styled.div
   border: 1px solid #888;
   box-sizing: border-box;
   text-align: center;
-  margin-left:${props=>props.first === 1 || props.first===(4) ||props.first===(7) ||props.first===(10)  ?'0':'3%'}
+  margin-left: 5%;
+  background: #cfcfcf;
+  
  `
 export const Icon =styled.i
 `  color: #888;
@@ -47,3 +64,41 @@ export const Partdesc =styled.p
   color: #888;
   padding: 20px
 `
+export const Link =styled.a
+`  background: #eb5424;
+display: block;
+width: 30%;
+height: 24px;
+text-decoration: none;
+border-radius: 10px;
+margin: 60px auto;
+color: #fff;
+`;
+
+export const  Moveleft = styled.span`
+  width: 10px;
+  border: 2px solid;
+  border-color: #eb5424  #eb5424  transparent transparent;
+  background: transparent;
+  height: 9px;
+  transform: rotate(42deg) translate(18px);
+  margin-top: 10px;
+  cursor: pointer;
+  z-index: 100;
+  position: absolute;
+  top: 150%;
+   left: 95%;
+`;
+export const Moveright = styled.span`
+  width: 10px;
+  border: 2px solid;
+  border-color: transparent transparent #eb5424 #eb5424;
+  background: transparent;
+  height: 9px;
+  transform: rotate(42deg);
+  cursor: pointer;
+  position: absolute;
+  top: 153%;
+  left: 5%;
+  z-index: 100;
+`;
