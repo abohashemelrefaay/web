@@ -108,7 +108,7 @@ export const  Moveleft = styled.span`
   top: 150%;
    left: 95%;
    @media (max-width: 1100px) {
-    top: 167%;
+    top: 127%;
     left: 61%;
   };
 `;
@@ -125,7 +125,7 @@ export const Moveright = styled.span`
   left: 5%;
   z-index: 100;
   @media (max-width: 1100px) {
-    top: 170.1%;
+    top: 130.1%;
     left: 38%;
   };
 `;
