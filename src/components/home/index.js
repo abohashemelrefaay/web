@@ -1,5 +1,5 @@
 import React from 'react';
-import {Homeparent,Information,Hometitle,Homeinfo,Homedesc,Span,Homebtn} from'./style.js'
+import {Homeparent,Imageprofil,Information,Hometitle,Homeinfo,Homedesc,Span,Homebtn} from'./style.js'
 
 const Home =()=> {
   
@@ -7,6 +7,7 @@ const Home =()=> {
   return (
     <Homeparent>
         <div className="container">
+           <Imageprofil name="image"></Imageprofil>
             <Information>
                 <Hometitle>mustafa mohamed abohashem</Hometitle>
                 <Homeinfo>Front End Developer</Homeinfo>

@@ -58,4 +58,15 @@ margin-top: 17px;
   border-radius: 15px;
   border: 10px solid #232323;
   margin-top: 3px;
+  
 }
+@media (max-width: 1100px) {
+
+  .info {  
+    width: 90%;
+    margin-left: 5px;
+  }
+  .porgname {
+    margin-left: 5px;
+  }
+};

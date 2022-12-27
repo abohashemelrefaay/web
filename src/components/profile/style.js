@@ -6,6 +6,10 @@ export const Profileskills =styled.div
 export const Profilesection =styled.div
 `  width: 50%;
   float: left;
+  @media (max-width: 750px) {
+    width: 90%;
+    margin-left:20px;
+  };
  `
 
 export const Profilelist =styled.ul
@@ -27,6 +31,10 @@ export const Span=styled.span
 export const Skills=styled.div
 `  width: 50%;
   float: left;
+  @media (max-width: 750px) {
+    width: 90%;
+    margin-left:20px;
+  };
 `
 
 export const Skillsdesc =styled.p

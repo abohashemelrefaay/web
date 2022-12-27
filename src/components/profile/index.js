@@ -20,7 +20,7 @@ class  Profile extends Component {
     
         <Profileitem number={profileitem.id} key={profileitem.id}>
         <Span>{profileitem.name}</Span>
-        {profileitem.namevalue}<a></a>
+        {profileitem.namevalue}
        </Profileitem>
         
     

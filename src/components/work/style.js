@@ -4,7 +4,6 @@ import styled from 'styled-components';
 export const Movingcover =styled.div
 `display: flex;
 width: 480%;
-height: 80vh;
 transition:3s;
 
 margin-left: ${(props) => (props.active === "p1" ? "0%" : "")};
@@ -41,23 +40,39 @@ export const Part =styled.div
   text-align: center;
   margin-left: 5%;
   background: #cfcfcf;
+  @media (max-width: 1100px) {
+    height: 333px;
+    padding: 7px 0;
+  };
+
+
   
  `
 export const Icon =styled.i
 `  color: #888;
   margin-bottom: 20px
+  @media (max-width: 1100px) {
+    margin-bottom: 0px;
+  };
+  
  `
 
 export const Parttitle =styled.h4
 `  font-size: 25px;
   color: #eb5424;
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  @media (max-width: 1100px) {
+    margin-top: 5px;
+  };
  `
 
 export const Line =styled.hr
 `  width: 60%;
   margin: auto;
   margin-bottom: 20px
+  @media (max-width: 1100px) {
+    margin-bottom: -23px;
+  };
   `
 export const Partdesc =styled.p
 `  font-size: 14px;
@@ -73,6 +88,10 @@ text-decoration: none;
 border-radius: 10px;
 margin: 60px auto;
 color: #fff;
+@media (max-width: 1100px) {
+  margin: 24px auto;
+};
+
 `;
 
 export const  Moveleft = styled.span`
@@ -88,6 +107,10 @@ export const  Moveleft = styled.span`
   position: absolute;
   top: 150%;
    left: 95%;
+   @media (max-width: 1100px) {
+    top: 167%;
+    left: 61%;
+  };
 `;
 export const Moveright = styled.span`
   width: 10px;
@@ -101,4 +124,8 @@ export const Moveright = styled.span`
   top: 153%;
   left: 5%;
   z-index: 100;
+  @media (max-width: 1100px) {
+    top: 170.1%;
+    left: 38%;
+  };
 `;

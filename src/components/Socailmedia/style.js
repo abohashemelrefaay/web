@@ -5,15 +5,15 @@ export const Socialmedia =styled.div
  width:100%;
  height: auto;
   overflow: hidden;
+
   `
   export const Socialsec=styled.div 
 `  position:relative;
 width: 33.33%;
    float: left;
   box-sizing: border-box;
-  padding: 100px 0 100px 60px;
   background:${props=>props.Number===1?'#4A6BB1':
-               props.Number===2?'#4ab1b1':'#b14a4a'};
+               props.Number===2?'#4ab1b1':'#29cb49'};
   `
 export const Linke= styled.a
 `
