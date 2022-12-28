@@ -27,11 +27,11 @@ export const Homeparent =styled.div
  @media (max-width: 1100px) {
   left: 40%;
   top: 54px;
-};
+}
  @media (max-width: 500) {
   top: 54px;
   left: 135px;
-};
+}
 
  `;
 
