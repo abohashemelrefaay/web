@@ -7,8 +7,9 @@ const Home =()=> {
   return (
     <Homeparent>
         <div className="container">
-           <Imageprofil name="image"></Imageprofil>
+           
             <Information>
+              <Imageprofil name="image"></Imageprofil>
                 <Hometitle>mustafa mohamed abohashem</Hometitle>
                 <Homeinfo>Front End Developer</Homeinfo>
                 <Homedesc>

@@ -20,18 +20,11 @@ export const Homeparent =styled.div
  border-radius: 50%;
  border: 2px solid aliceblue;
  position: absolute;
- 
- left: 45%;
- top: 25px;
+ left: 40%;
+ @media (max-width:500px) {
+  left: 27%;
+};
 
- @media (max-width: 1100px) {
-  left: 40%;
-  top: 54px;
-}
- @media (max-width: 500) {
-  top: 54px;
-  left: 135px;
-}
 
  `;
 
