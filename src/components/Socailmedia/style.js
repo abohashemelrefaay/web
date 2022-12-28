@@ -37,6 +37,9 @@ bottom: 0px;
     margin-right: 10px;
     margin-top: 28px;
     border-radius: 14px;
+    @media (max-width: 1100px) {
+      margin:10px;
+    };
 
 `
 export const Socialp =styled.p
@@ -44,6 +47,9 @@ export const Socialp =styled.p
   text-transform: uppercase;
   font-size: 20px;
   color: #fff;
+  @media (max-width: 1100px) {
+    font-size: 8px;
+  };
 `
 
 export const Pspan =styled.span

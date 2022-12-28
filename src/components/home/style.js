@@ -23,15 +23,14 @@ export const Homeparent =styled.div
  
  left: 45%;
  top: 25px;
- @media (max-width:600px) {
-  width: 120px;
-  height: 120px;
-  left: 35%;
-  top: 54px;
-};
+
  @media (max-width: 1100px) {
   left: 40%;
   top: 54px;
+};
+ @media (max-width: 500) {
+  top: 54px;
+  left: 135px;
 };
 
  `;

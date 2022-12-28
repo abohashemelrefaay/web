@@ -23,10 +23,14 @@ export const Workcomp =styled.div
  `
 export const Worktitle =styled.h2
 `  font-size: 60px; 
- `
+@media (max-width: 1100px) {
+  font-size: 55px;
+  text-align: center;
+};
+ `;
 
 export const Span =styled.span
- ` font-weight: normal
+ ` font-weight: normal;
  `
 
 export const Part =styled.div
@@ -44,6 +48,7 @@ export const Part =styled.div
     height: 333px;
     padding: 7px 0;
   };
+
 
 
   
@@ -108,7 +113,7 @@ export const  Moveleft = styled.span`
   top: 150%;
    left: 95%;
    @media (max-width: 1100px) {
-    top: 127%;
+    top: 205%;
     left: 61%;
   };
 `;
@@ -125,7 +130,7 @@ export const Moveright = styled.span`
   left: 5%;
   z-index: 100;
   @media (max-width: 1100px) {
-    top: 130.1%;
+    top: 209.1%;
     left: 38%;
   };
 `;
