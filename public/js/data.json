@@ -10,16 +10,16 @@
     {
       "id": 2,
       "icon_name": "icon fa fa-chain fa-2x",
-      "title": "Template by React",
+      "title": "Dental Clinic",
       "body": "Incomplete, pending modification for screens less than 124 pixels",
-      "link": "https://forex-ten.vercel.app/"
+      "link": "https://dental-clinic-five.vercel.app/"
     },
     {
       "id": 3,
       "icon_name": "icon fa fa-tachometer fa-2x",
-      "title": "Template by React2",
-      "body": "Using many properties with HTML, CSS and Responsive to all screens.",
-      "link": "https://web-blush-theta.vercel.app/"
+      "title": "Phone gallery ",
+      "body": "Responsive to screens higher than 1000px.",
+      "link": "https://forex-ten.vercel.app/"
     },
     {
       "id": 4,
