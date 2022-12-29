@@ -1,19 +1,20 @@
 {
   "works": [
-    {
+      {
       "id": 1,
+      "icon_name": "icon fa fa-chain fa-2x",
+      "title": "Dental Clinic",
+      "body": "Incomplete, pending modification for screens",
+      "link": "https://dental-clinic-notn.vercel.app/"
+    },
+    {
+      "id": 2,
       "icon_name": "icon fa fa-bolt fa-2x",
       "title": "Gallery Cars",
       "body": "The most beautiful types of cars, brands and their characteristics and Responsive to all screens.",
       "link": "https://abohashemelrefaay.github.io/carShow/"
     },
-    {
-      "id": 2,
-      "icon_name": "icon fa fa-chain fa-2x",
-      "title": "Dental Clinic",
-      "body": "Incomplete, pending modification for screens less than 124 pixels",
-      "link": "https://dental-clinic-five.vercel.app/"
-    },
+  
     {
       "id": 3,
       "icon_name": "icon fa fa-tachometer fa-2x",
